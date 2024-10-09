@@ -14,10 +14,10 @@ const canvas = document.getElementById('canvas') as HTMLCanvasElement;
 const renderer = new THREE.WebGLRenderer({ canvas, antialias: true });
 
 loader.load( 'fonts/droid/droid_serif_regular.typeface.json', function ( font ) {
-
+  
 	const textGeometry = new TextGeometry( 'Presidio', {
 		font: font,
-		size: 100,
+		size: 80,
 		depth: 1,
 		curveSegments: 50,
 		bevelEnabled: true,
