@@ -52,7 +52,7 @@ loader.load( 'node_modules/three/examples/fonts/droid/droid_serif_regular.typefa
 
   textGeometry.center();
 
-  const material = new THREE.MeshBasicMaterial( { color: "#6b9ac4" } );
+  const material = new THREE.MeshBasicMaterial( { color: "#0077b6" } );
   const text = new THREE.Mesh( textGeometry, material );
   text.position.x = 150;
   text.position.y = -35;
