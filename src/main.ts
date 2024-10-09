@@ -13,7 +13,7 @@ camera.position.set( 0, 500, 1000 );
 const canvas = document.getElementById('canvas') as HTMLCanvasElement;
 const renderer = new THREE.WebGLRenderer({ canvas, antialias: true });
 
-loader.load( 'node_modules/three/examples/fonts/droid/droid_serif_regular.typeface.json', function ( font ) {
+loader.load( 'fonts/droid/droid_serif_regular.typeface.json', function ( font ) {
 
 	const textGeometry = new TextGeometry( 'Presidio', {
 		font: font,
@@ -36,7 +36,7 @@ loader.load( 'node_modules/three/examples/fonts/droid/droid_serif_regular.typefa
   scene.add( text );
 } );
 
-loader.load( 'node_modules/three/examples/fonts/droid/droid_serif_regular.typeface.json', function ( font ) {
+loader.load( 'fonts/droid/droid_serif_regular.typeface.json', function ( font ) {
 
 	const textGeometry = new TextGeometry( 'Future Built !', {
 		font: font,
